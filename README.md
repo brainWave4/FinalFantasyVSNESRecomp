@@ -109,3 +109,6 @@ This project's own source is under the license in `LICENSE`. The framework
 carries its own terms — see `snesrecomp/LICENSE` and
 `snesrecomp/THIRD_PARTY_ATTRIBUTION.md`. Neither covers the game data, which
 is not distributed here.
+
+## Acknowledgements
+* everything8215's [ff5 Disassembly](https://github.com/everything8215/ff5) is used for smybol mapping.

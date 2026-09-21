@@ -6,3 +6,6 @@
 	path = recomp-ui
 	url = https://github.com/mstan/recomp-ui.git
 	branch = master
+[submodule "recomp/disassembly"]
+	path = recomp/disassembly
+	url = https://github.com/everything8215/ff5.git
