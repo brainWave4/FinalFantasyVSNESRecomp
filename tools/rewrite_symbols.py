@@ -1,3 +1,5 @@
+import pathlib
+
 def write_intro(file_sym):
     file_sym.write(textwrap.dedent(f'''
         # Progressive symbol map for Final Fantasy V.
@@ -28,7 +30,12 @@ def write_func(file_sym, func_name, func_addr, func_bank):
         [[func]]
         name = "{func_name}"
         addr = "{func_addr}"
-        bank = "{func_bank}"
+        bank = {func_bank}
         emit = false
 
     '''))
+
+FILEPATH_SYM = pathlib.Path("recomp") / "symbols.toml"
+
+with open(FILEPATH_SYM, "w") as file_sym:
+    write_intro(file_sym)
