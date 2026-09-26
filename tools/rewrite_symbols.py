@@ -1,7 +1,8 @@
 import pathlib
+import textwrap
 
 def write_intro(file_sym):
-    file_sym.write(textwrap.dedent(f'''
+    file_sym.write(textwrap.dedent(f'''\
         # Progressive symbol map for Final Fantasy V.
         #
         # Each [[func]] names an address the analyzer should treat as a function.
@@ -22,7 +23,6 @@ def write_intro(file_sym):
         bank = 0
         emit = false
         note = "Native NMI vector ($FFEA)"
-
     '''))
 
 def write_func(file_sym, func_name, func_addr, func_bank):
@@ -32,7 +32,6 @@ def write_func(file_sym, func_name, func_addr, func_bank):
         addr = "{func_addr}"
         bank = {func_bank}
         emit = false
-
     '''))
 
 FILEPATH_SYM = pathlib.Path("recomp") / "symbols.toml"
