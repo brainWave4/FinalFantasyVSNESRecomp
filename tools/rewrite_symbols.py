@@ -52,6 +52,7 @@ with open(FILEPATH_SYM, "w") as file_sym:
     }
 
     for key in FILES_BANKS:
+        bank = FILES_BANKS[key]
         file_sym.write(textwrap.dedent(f'''
             # From {key}
         '''))
@@ -60,7 +61,7 @@ with open(FILEPATH_SYM, "w") as file_sym:
 
         with open(filepath_bank) as file_bank:
             for line_bank in file_bank:
-                if ":" in line_bank:
+                if line_bank.startswith(".proc "):
                     print(line_bank)
             
             file_bank.close()
