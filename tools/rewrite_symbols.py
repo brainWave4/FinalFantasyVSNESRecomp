@@ -62,6 +62,7 @@ with open(FILEPATH_SYM, "w") as file_sym:
         with open(filepath_bank) as file_bank:
             for line_bank in file_bank:
                 if line_bank.startswith(".proc "):
-                    print(line_bank)
+                    func_name = line_bank[6:]
+                    write_func(file_sym, func_name, "XXXX", bank)
             
             file_bank.close()
