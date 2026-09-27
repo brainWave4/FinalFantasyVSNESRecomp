@@ -43,12 +43,12 @@ with open(FILEPATH_SYM, "w") as file_sym:
     ASM_EXT = ".asm"
 
     FILES_BANKS = {
-        "field/field-main": 0xc0,
-        "btlg/btlgfx-main": 0xc1,
-        "battle/battle-main": 0xc2,
-        "menu/menu-main": 0xc2,
-        "cutscene/cutscene-main": 0xc3,
-        "sound/sound-main": 0xc4
+        "field/field-main": "0xc0",
+        "btlgfx/btlgfx-main": "0xc1",
+        "battle/battle-main": "0xc2",
+        "menu/menu-main": "0xc2",
+        "cutscene/cutscene-main": "0xc3",
+        "sound/sound-main": "0xc4"
     }
 
     for key in FILES_BANKS:
@@ -62,7 +62,7 @@ with open(FILEPATH_SYM, "w") as file_sym:
         with open(filepath_bank) as file_bank:
             for line_bank in file_bank:
                 if line_bank.startswith(".proc "):
-                    func_name = line_bank[6:]
+                    func_name = line_bank[6:].rstrip("\n")
                     write_func(file_sym, func_name, "XXXX", bank)
             
             file_bank.close()
