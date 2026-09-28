@@ -18,3 +18,4125 @@ addr = "cee0"
 bank = 0
 emit = false
 note = "Native NMI vector ($FFEA)"
+
+# From field/field-main
+
+[[func]]
+name = "Start"
+addr = "0000"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "FieldLoop"
+addr = "00ad"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "FieldNMI"
+addr = "02d1"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "FieldIRQ"
+addr = "0446"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "ExecTriggerScript"
+addr = "046a"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "CheckTriggers"
+addr = "061a"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "CheckVehicle"
+addr = "073e"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c00853"
+addr = "0853"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "BoardChoco"
+addr = "08ba"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LandChoco"
+addr = "08bb"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "BoardBlackChoco"
+addr = "08c1"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "BoardHiryuu"
+addr = "08ef"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LandBlackChoco"
+addr = "091d"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LandHiryuu"
+addr = "0955"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "BoardSubmarine"
+addr = "098d"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LandSubmarine"
+addr = "098e"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c009c6"
+addr = "09c6"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c009f7"
+addr = "09f7"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c00a11"
+addr = "0a11"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "BoardShip"
+addr = "0a4d"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LandShip"
+addr = "0a54"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "BoardAirship"
+addr = "0a57"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LandAirship"
+addr = "0aa3"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c00c9f"
+addr = "0c9f"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c00d3d"
+addr = "0d3d"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "CheckTreasure"
+addr = "0d74"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "GiveGil"
+addr = "0efe"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "CalcGil"
+addr = "0f3d"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "CheckPlayerMoveWorld"
+addr = "0f8c"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c0103a"
+addr = "103a"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c0104a"
+addr = "104a"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c01055"
+addr = "1055"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c010c8"
+addr = "10c8"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c0112d"
+addr = "112d"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c0119a"
+addr = "119a"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "CheckPlayerMoveSub"
+addr = "11c2"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "UpdateDestZLevel"
+addr = "1372"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "UpdateCurrZLevel"
+addr = "13a6"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "DoTileDmg"
+addr = "13d7"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "DoPoisonDmg"
+addr = "148d"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "PoisonMosaic"
+addr = "14e9"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "UpdateCurrPriority"
+addr = "151d"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "UpdateDestPriority"
+addr = "1538"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "CheckDoor"
+addr = "155b"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "CheckFindPits"
+addr = "15ac"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "CalcParallaxScroll"
+addr = "161f"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "CheckPartyCanMove"
+addr = "163a"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c016b7"
+addr = "16b7"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c016da"
+addr = "16da"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c01733"
+addr = "1733"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c017e8"
+addr = "17e8"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c019f1"
+addr = "19f1"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c01a1d"
+addr = "1a1d"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c01ae4"
+addr = "1ae4"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "UpdateTopChar"
+addr = "1cd7"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "UpdatePlayerGfx"
+addr = "1ce2"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "TfrPartyGfx"
+addr = "1d1e"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c01ec5"
+addr = "1ec5"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c01f57"
+addr = "1f57"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c01fb4"
+addr = "1fb4"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "DrawPlayerSprite"
+addr = "1fff"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LoadOverlayGfx"
+addr = "201f"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LoadOverlayProp"
+addr = "203f"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "DrawOverlaySprites"
+addr = "2842"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "UpdateOverlay"
+addr = "2973"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "ExecNPCScript"
+addr = "2f95"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "DrawHiryuu"
+addr = "358e"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "DrawObjSprites"
+addr = "39b3"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "ShowCutscene"
+addr = "44c8"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "PlaySong"
+addr = "460a"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "PlaySfx"
+addr = "463c"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "InitFadeIn"
+addr = "4a68"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "InitFadeOut"
+addr = "4a71"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "TfrVehicleGfx"
+addr = "4ad5"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "TfrWorldGfx"
+addr = "4b56"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "UpdateCtrl"
+addr = "4c90"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "ResetSprites"
+addr = "4c95"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "TfrVRAM"
+addr = "4cbc"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "DisableInterrupts"
+addr = "4ce8"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "EnableInterrupts"
+addr = "4cfa"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "FillVRAM"
+addr = "4d13"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "TfrSprites"
+addr = "4d3e"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "TfrPal"
+addr = "4d67"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "HexToDec"
+addr = "4dd7"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "WaitVBlank"
+addr = "4e41"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "InitInterrupts"
+addr = "4e4a"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "InitHardware"
+addr = "4e69"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "Rand"
+addr = "4f2b"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "CrystalShatterAnim"
+addr = "4f48"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LoadMap"
+addr = "545a"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "ReloadMap"
+addr = "5476"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LoadWorldMap"
+addr = "5528"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LoadWorldPal"
+addr = "56f8"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LoadSubMap"
+addr = "574c"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "PitfallFadeOutAnim"
+addr = "5fe6"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "FadeOutMap"
+addr = "6081"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "PitfallFadeInAnim"
+addr = "60a8"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "FadeInMap"
+addr = "6100"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "ShowMinimap"
+addr = "6632"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LoadWorldTilemap"
+addr = "69a1"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LoadSubTilemap"
+addr = "6aca"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "FillTilemap"
+addr = "6b21"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LoadWorldTileset"
+addr = "6b2d"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "LoadSubTileset"
+addr = "6b44"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c06b99"
+addr = "6b99"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "ModBGTilemap"
+addr = "6f08"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "ShowDlg"
+addr = "83ae"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "GetDlgPtr"
+addr = "8401"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "_c08d3b"
+addr = "8d3e"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "ShowMapTitle"
+addr = "9267"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "DrawMapTitleWindow"
+addr = "933d"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "HideMapTitleWindow"
+addr = "9419"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "ExecEvent"
+addr = "a217"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "BattleBlurSub"
+addr = "cc88"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "BattleBlurWorld"
+addr = "cca9"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "BattleBlur"
+addr = "ccdd"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "RandomBattle"
+addr = "ccf0"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "Reset"
+addr = "cec0"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "JumpNMI"
+addr = "cee0"
+bank = 0xc0
+emit = false
+
+[[func]]
+name = "JumpIRQ"
+addr = "cee4"
+bank = 0xc0
+emit = false
+
+# From btlgfx/btlgfx-main
+
+[[func]]
+name = "ExecBtlGfx_ext"
+addr = "0000"
+bank = 0xc1
+emit = false
+
+[[func]]
+name = "_c10003"
+addr = "0003"
+bank = 0xc1
+emit = false
+
+[[func]]
+name = "_c10006"
+addr = "0006"
+bank = 0xc1
+emit = false
+
+[[func]]
+name = "_c10009"
+addr = "0009"
+bank = 0xc1
+emit = false
+
+[[func]]
+name = "ExecBtlGfx"
+addr = "000c"
+bank = 0xc1
+emit = false
+
+# From battle/battle-main
+
+[[func]]
+name = "ExecBattle_ext"
+addr = "0000"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ExecBattle"
+addr = "0003"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetupRegisters"
+addr = "0053"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CallC1"
+addr = "0069"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "MusicChange"
+addr = "006E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Random_X_A"
+addr = "007C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Multiply_16bit"
+addr = "00D2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Multiply_8bit"
+addr = "00F1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Division"
+addr = "010C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CountSetBits"
+addr = "01C3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ClearBit_X"
+addr = "01D1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetBit_X"
+addr = "01D6"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SelectBit_X"
+addr = "01DB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "NextCharOffset"
+addr = "01E0"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CalculateCharOffset"
+addr = "01EC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CalculateSpellOffset"
+addr = "01F8"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GetTimerOffset"
+addr = "0207"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "WipeDisplayStructures"
+addr = "0218"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CopyStatsWithBonuses"
+addr = "0248"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CopyDisplayDamage"
+addr = "0276"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "WipeActionData"
+addr = "028A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Random_0_99"
+addr = "02A2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "BuildTargetBitmask"
+addr = "02A9"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckMultiTarget"
+addr = "02C2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "RemoveInactiveTargets"
+addr = "02CF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CopyROMMagicInfo"
+addr = "0324"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "NextMessageBoxSet"
+addr = "0356"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GetItemUsableY"
+addr = "0369"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetupInventoryInfo"
+addr = "03FA"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyPercentage"
+addr = "0491"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "NoActionAbility"
+addr = "04FB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable00"
+addr = "0511"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ItemCommand"
+addr = "0570"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "WeaponItem"
+addr = "0632"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "PrepMagicLamp"
+addr = "0767"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable02"
+addr = "0791"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable03"
+addr = "07A4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable05"
+addr = "07A9"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable06"
+addr = "07AE"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable07"
+addr = "07CF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SimpleFight"
+addr = "0814"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable08"
+addr = "090B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable09"
+addr = "0933"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable0A"
+addr = "094E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable0B"
+addr = "096F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable0C"
+addr = "0990"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable2D"
+addr = "09DD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable2E"
+addr = "0A7D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable0D"
+addr = "0AA4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable0E"
+addr = "0ADC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable0F"
+addr = "0AFA"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable10"
+addr = "0B0F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SwordSlapCommand"
+addr = "0B6F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable12"
+addr = "0B7A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable13"
+addr = "0B9B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable14"
+addr = "0BBF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable15"
+addr = "0C67"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable16"
+addr = "0C6F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable18"
+addr = "0DA2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable19"
+addr = "0DC3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable17"
+addr = "0DE4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable1A"
+addr = "0EE0"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable1B"
+addr = "0EFE"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable1C"
+addr = "0F1F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable1D"
+addr = "0F40"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable1E"
+addr = "1125"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable20"
+addr = "1169"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable21"
+addr = "118A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable22"
+addr = "11B2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable24"
+addr = "125E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable25"
+addr = "12B3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable28"
+addr = "1306"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable29"
+addr = "1333"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable2A"
+addr = "13CE"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable2F"
+addr = "13EF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable30"
+addr = "141D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable31"
+addr = "1425"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable32"
+addr = "1490"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable33"
+addr = "14B8"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable34"
+addr = "16A2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CopyAbilityInfo"
+addr = "16AA"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GFXCmdAbilityAnim"
+addr = "16E1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GFXCmdAttackNameA"
+addr = "16FA"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "MagicAtkTypeSingleTarget"
+addr = "1705"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "MagicAtkTypeMultiTarget"
+addr = "171A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "FinishCommand"
+addr = "1735"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "FinishCommandNullTargets"
+addr = "1750"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GetTargets"
+addr = "175F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "HandleATBMenu"
+addr = "176C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckControlTargetActive"
+addr = "190B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ProcessMenuCommandData"
+addr = "1926"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ConsumeItem"
+addr = "1C36"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetupCreditsDemo"
+addr = "1C51"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckDisablingStatus"
+addr = "1C74"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyBerserkStatus"
+addr = "1C9A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DisableCommandsMagic"
+addr = "1CB3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "HandleUncontrolledParty"
+addr = "1DC4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ZombieAction"
+addr = "1E2F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CharmAction"
+addr = "1E62"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "BerserkAction"
+addr = "1F80"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "QueueUncontrolledAction"
+addr = "1fb3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "RandomizeOrder"
+addr = "1FD2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "UpdateTimers"
+addr = "200B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "UpdateTimer"
+addr = "2055"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GlobalTimers"
+addr = "2090"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "FindEndedTimers"
+addr = "20B2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyTimerEffects"
+addr = "2177"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DispatchTimerEffect"
+addr = "21B5"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TimerEffectStop"
+addr = "21E3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TimerEffectPoison"
+addr = "21EE"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TimerEffectReflect"
+addr = "222A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TimerEffectCountdown"
+addr = "2235"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TimerEffectMute"
+addr = "224E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TimerEffectHPLeak"
+addr = "2259"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TimerEffectOld"
+addr = "2264"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TimerEffectRegen"
+addr = "22AD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TimerEffectSing"
+addr = "2319"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TimerEffectParalyze"
+addr = "237C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TimerEffectATB"
+addr = "238F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "PerformAction"
+addr = "23DF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ATBWait"
+addr = "2432"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ResetATBAll"
+addr = "2447"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ResetATB"
+addr = "2482"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ClearQuick"
+addr = "24E4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StopTimer"
+addr = "24F0"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StartTimer"
+addr = "24FD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GetTimerDuration"
+addr = "2521"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AddTimerOffsetY"
+addr = "253F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TimerDurationJumpTable"
+addr = "254A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DurSpell"
+addr = "2572"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Dur120a"
+addr = "2576"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DurVit"
+addr = "2579"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Dur120b"
+addr = "2584"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Dur49"
+addr = "2587"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Dur180mod"
+addr = "258A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Dur180"
+addr = "259A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Dur10"
+addr = "259D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Dur110mod"
+addr = "25A0"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Dur30"
+addr = "25AF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DurSpellmod"
+addr = "25B2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Dur120mod"
+addr = "25C3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "MonsterATB"
+addr = "25D3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckAICondition"
+addr = "27BF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition00"
+addr = "283a"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition01"
+addr = "283e"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition02"
+addr = "289D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition03"
+addr = "28DB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition04"
+addr = "28EB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition05"
+addr = "291F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition06"
+addr = "2939"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition07"
+addr = "29B1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition08"
+addr = "2A29"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition09"
+addr = "2A63"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition0A"
+addr = "2A9D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition0B"
+addr = "2AD2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition0C"
+addr = "2B19"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition0D"
+addr = "2B2A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition0E"
+addr = "2B6F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition0F"
+addr = "2B87"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition10"
+addr = "2B93"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition11"
+addr = "2BC0"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICondition12"
+addr = "2BFD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GetAITarget"
+addr = "2C27"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget00"
+addr = "2cb3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget01"
+addr = "2cda"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget02"
+addr = "2ce0"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget03"
+addr = "2ce6"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget04"
+addr = "2cec"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget05"
+addr = "2cf2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget06"
+addr = "2cfe"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget07"
+addr = "2d0a"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget08"
+addr = "2d16"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget09"
+addr = "2d22"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget0A"
+addr = "2d2e"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget0B"
+addr = "2d3a"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget0C"
+addr = "2d46"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget0D"
+addr = "2d52"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget0E"
+addr = "2d79"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget0F"
+addr = "2dbd"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget10"
+addr = "2dc6"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget11"
+addr = "2dcd"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget12"
+addr = "2dd3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget13"
+addr = "2e18"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget14"
+addr = "2e25"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget15"
+addr = "2e2d"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget16"
+addr = "2e37"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget17"
+addr = "2e44"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget18"
+addr = "2e4f"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget19"
+addr = "2e59"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget1A"
+addr = "2e62"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget1B"
+addr = "2e65"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget1C"
+addr = "2ea6"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget1D"
+addr = "2f00"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget1E"
+addr = "2f0b"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget1F"
+addr = "2f19"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget20"
+addr = "2f24"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget21"
+addr = "2f27"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget22"
+addr = "2f70"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget23"
+addr = "2fab"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget24"
+addr = "2fb7"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget25"
+addr = "2fc0"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget26"
+addr = "2fc3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget27"
+addr = "3019"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget28"
+addr = "305d"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget29"
+addr = "309b"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget2A"
+addr = "30a1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget2B"
+addr = "30a7"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget2C"
+addr = "30ad"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget2D"
+addr = "30b3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget2E"
+addr = "30c2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget2F"
+addr = "30f1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget30"
+addr = "3115"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget31"
+addr = "311b"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AITarget32"
+addr = "3121"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckTargetValid"
+addr = "3127"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ProcessAIScript"
+addr = "313B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DispatchAICommands"
+addr = "3210"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICastNormalSpell"
+addr = "329C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AIChoose1of3"
+addr = "334D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AIShowMonster"
+addr = "336E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AISetTarget"
+addr = "33EC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AISetVar"
+addr = "346F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AISetEventFlag"
+addr = "347B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AISetStatsToggleStatus"
+addr = "348A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AICopyCommand"
+addr = "34D9"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AISpellTarget"
+addr = "3504"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "HandleReactions"
+addr = "35E3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckReactionConditions"
+addr = "3C10"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SaveActionData"
+addr = "3C7F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "RestoreActionData"
+addr = "3D08"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ReactionPauseTimerChecks"
+addr = "3D9C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "UnpauseTimerChecks"
+addr = "3DBB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ProcessReaction"
+addr = "3DC7"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ProcessReaction_Party"
+addr = "3e91"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "LoadStatsEquipmentAI"
+addr = "3EA2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StartTimerFromTemp"
+addr = "41A3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetupInventoryMagic"
+addr = "41AF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GetItemUsableA"
+addr = "455E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StartPartyPoisonTimers"
+addr = "45D5"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "FightCommand"
+addr = "45FF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ProcessTurn"
+addr = "48BD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ShiftActionAnims"
+addr = "4923"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DispatchCommand"
+addr = "4968"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DispatchCommand_CommandReady"
+addr = "49d5"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "RestoreStatsAfterRelease"
+addr = "4A2F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandTable"
+addr = "4A94"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckRetarget"
+addr = "4AFE"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckValidTargetsExist"
+addr = "4BD7"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckLearnBlue"
+addr = "4C10"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StartBattle"
+addr = "4CE0"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckOneTimeEncounters"
+addr = "4E25"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AdvanceStartingATB"
+addr = "4E9F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "InitBattle"
+addr = "4F0A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckAmbushes"
+addr = "4F7A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetupBackAttack"
+addr = "4FEA"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Preemptive"
+addr = "5001"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AdjustATB"
+addr = "501D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetupMusic"
+addr = "505C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "EndBattle"
+addr = "5070"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ResetStats"
+addr = "515C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "MergeItemDupes"
+addr = "51C2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "UpdateFieldData"
+addr = "51F4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GetLootExp"
+addr = "52A2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckHideAP"
+addr = "5674"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DropMonsterLoot"
+addr = "569A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "LevelUp"
+addr = "56EC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyHPMPPassives"
+addr = "57C7"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "HPMPMultTable"
+addr = "57E1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DivideExp"
+addr = "57E6"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GFXCmdMessageClearAnim"
+addr = "5847"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "MainBattleLoop"
+addr = "5872"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CopyHPMPStatus"
+addr = "5921"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "UpdateMonsterList"
+addr = "5A41"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckBattleEnd"
+addr = "5AB4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "UpdateMonsterRows"
+addr = "5B6C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CastSpell"
+addr = "5CE1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CastMultiHitSpell"
+addr = "5F75"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "PrepSummon"
+addr = "60A3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GetPartyTargetOffset"
+addr = "614E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "HasteSlowMod"
+addr = "6163"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "KillCharacter"
+addr = "618A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckPartyDeath"
+addr = "6257"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckMonsterDeath"
+addr = "6265"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckForDeath"
+addr = "6272"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetupAndLaunchAttack"
+addr = "6408"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DispatchAttack"
+addr = "64B2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ClearAttackData"
+addr = "6523"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CopyAttackParams"
+addr = "653A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyDamage"
+addr = "654D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GetDamageDisplayOffset"
+addr = "685C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack00"
+addr = "686C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack01"
+addr = "6870"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack02"
+addr = "6898"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack03"
+addr = "68E2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack04"
+addr = "68F7"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack05"
+addr = "690C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack06"
+addr = "6921"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack07"
+addr = "694A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack08"
+addr = "6971"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack09"
+addr = "6993"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack0A"
+addr = "69B5"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack0B"
+addr = "69DB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack0C"
+addr = "6A07"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack0D"
+addr = "6A3C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack0E"
+addr = "6A65"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack0F"
+addr = "6A76"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack10"
+addr = "6A81"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack11"
+addr = "6A8E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack12"
+addr = "6AC4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack13"
+addr = "6ACF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack14"
+addr = "6ADD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack15"
+addr = "6AEB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack16"
+addr = "6AF6"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack17"
+addr = "6B01"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack18"
+addr = "6B32"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack19"
+addr = "6B35"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack1A"
+addr = "6B52"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack1B"
+addr = "6B7D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack1C"
+addr = "6BFC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack1D"
+addr = "6C17"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack1E"
+addr = "6CE4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack1F"
+addr = "6CEF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack20"
+addr = "6D2E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack21"
+addr = "6D4B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack22"
+addr = "6D5B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack23"
+addr = "6D83"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack24"
+addr = "6DAB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack25"
+addr = "6DB4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack26"
+addr = "6DBD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack27"
+addr = "6DD7"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack28"
+addr = "6DED"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack29"
+addr = "6E12"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack2A"
+addr = "6E2D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack2B"
+addr = "6E4C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack2C"
+addr = "6E5E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack2D"
+addr = "6E72"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack2E"
+addr = "6E9B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack2F"
+addr = "6EB1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack30"
+addr = "6EBC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack31"
+addr = "6EE1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack32"
+addr = "6F1E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack33"
+addr = "6F58"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack34"
+addr = "6F84"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack35"
+addr = "6FA8"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack36"
+addr = "6FC9"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack37"
+addr = "6FF9"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack38"
+addr = "7020"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack39"
+addr = "703E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack3A"
+addr = "7053"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack3B"
+addr = "7074"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack3C"
+addr = "709D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack3D"
+addr = "70C4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack3E"
+addr = "70DB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack3F"
+addr = "70EC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack40"
+addr = "7119"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack41"
+addr = "7134"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack42"
+addr = "7140"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack43"
+addr = "7150"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack44"
+addr = "71B9"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack45"
+addr = "71D7"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack46"
+addr = "71F5"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack47"
+addr = "71FB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack48"
+addr = "720D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack49"
+addr = "7255"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack4A"
+addr = "7266"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack4C"
+addr = "728D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack4D"
+addr = "729B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack4E"
+addr = "72B2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack4F"
+addr = "72DB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack50"
+addr = "7300"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack51"
+addr = "7319"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack52"
+addr = "735E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack53"
+addr = "7379"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack54"
+addr = "7384"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack55"
+addr = "738F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack56"
+addr = "7398"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack57"
+addr = "73A3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack58"
+addr = "73C0"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack59"
+addr = "73F0"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack5A"
+addr = "7407"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack5B"
+addr = "740E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack5C"
+addr = "7419"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack5D"
+addr = "7427"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack5E"
+addr = "743D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack5F"
+addr = "745C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack60"
+addr = "7476"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack61"
+addr = "7562"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack62"
+addr = "7662"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack63"
+addr = "76CE"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack64"
+addr = "7774"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack65"
+addr = "77A4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack66"
+addr = "77B6"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack68"
+addr = "77E0"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack67"
+addr = "77E5"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack69"
+addr = "77E9"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack6A"
+addr = "78BC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack6B"
+addr = "78DD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack6C"
+addr = "78EE"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack6D"
+addr = "78FA"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack6E"
+addr = "791B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack6F"
+addr = "794D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack70"
+addr = "7956"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack71"
+addr = "7964"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack72"
+addr = "7AD9"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack73"
+addr = "7AFA"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Attack74"
+addr = "7B1E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AtkTypeJumpTable"
+addr = "7B21"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "HitCalcLevelMEvade"
+addr = "7C0D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetHitParam1andTargetEvade"
+addr = "7C3B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetHit100andTargetEvade"
+addr = "7C47"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetHit100andHalfTargetEvade"
+addr = "7C53"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetHitParam1andTargetEvade_Dupe"
+addr = "7C60"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetHitParam1andHalfTargetEvade"
+addr = "7C6C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetHitParam1andTargetMagicEvade"
+addr = "7C79"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "HitCalcSteal"
+addr = "7C85"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckAegis"
+addr = "7C97"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "MultiTargetHitPercent"
+addr = "7CC3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckSpecialEvade"
+addr = "7CFC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DanceHitMod"
+addr = "7D7F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TargetMHitMod"
+addr = "7D8B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TargetPHitMod"
+addr = "7DAC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AttackerStatusPHitMod"
+addr = "7DD1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckTargetImage"
+addr = "7DE2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckVoid"
+addr = "7DF1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckFloat"
+addr = "7E03"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckForHit"
+addr = "7E12"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckPHit"
+addr = "7E23"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckCreatureType"
+addr = "7E5B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckLevel"
+addr = "7E67"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "HitMagicConditionalAutohit"
+addr = "7E81"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "HitPhysical"
+addr = "7EBE"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "HitMagic"
+addr = "7EF6"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "HitPhysicalMagic"
+addr = "7F1B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "NormalMagicDamage"
+addr = "7F30"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "FlareMagicDamage"
+addr = "7F6A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "RandomMagicDamage"
+addr = "7FA7"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "PhysicalMagicDamage"
+addr = "7FC2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SwordDamage"
+addr = "7FFC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "FistDamage"
+addr = "803E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "KnifeDamage"
+addr = "80D4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AxeDamage"
+addr = "812B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "BellDamage"
+addr = "816F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "RodDamage"
+addr = "81CB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "LevelDamage"
+addr = "8205"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "MonsterDamage"
+addr = "8227"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ItemFormula"
+addr = "8252"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "PhysicalParamDamage"
+addr = "8261"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ThrowDamage"
+addr = "8299"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GilTossDamage"
+addr = "830A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "MultiTargetMod"
+addr = "8366"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "BackRowMod"
+addr = "839B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CommandMod"
+addr = "83BD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DoubleGripMod"
+addr = "8430"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckJump"
+addr = "8452"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "RuneMod"
+addr = "8467"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SpecialtyMod"
+addr = "84AF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "MedicineMod"
+addr = "84CF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CreatureMod"
+addr = "84DD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TargetStatusModMag"
+addr = "84F3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TargetStatusModPhys"
+addr = "8512"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AttackerStatusModPhys"
+addr = "8533"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "EqualLevelMod"
+addr = "855D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "BraveDamage"
+addr = "8577"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GoblinDamage"
+addr = "85AD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StrongFightDamage"
+addr = "85F1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ChickenDamage"
+addr = "8626"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ElementUpMod"
+addr = "866D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "MagicSwordMod"
+addr = "8684"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ElementDamageModPhys"
+addr = "8734"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ElementDamageModMag"
+addr = "876E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ElementDamageModMag2"
+addr = "87B5"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckCrit"
+addr = "87DF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckCreatureCrit"
+addr = "87F9"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CalcFinalDamageMSword"
+addr = "8811"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GravityDamage"
+addr = "8874"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CureTarget"
+addr = "88C1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "FullCureTarget"
+addr = "88DE"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetHPCritical"
+addr = "88FD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DrainDamage"
+addr = "8926"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "MSwordPsyche"
+addr = "894D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "PsycheDamage"
+addr = "8985"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "MPHeal"
+addr = "89DE"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "FullMPHeal"
+addr = "89F7"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CalcFinalDamage"
+addr = "8A05"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CalcDamageMaxHP"
+addr = "8A4E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CalcDamageAttackerCurHP"
+addr = "8A9D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CalcDamageTargetCurMP"
+addr = "8AEC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CalcDamageAttackerDiffHP"
+addr = "8B33"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "RestoreHalfMax"
+addr = "8B4D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CalcStatusDuration"
+addr = "8B7D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyMSwordStatus"
+addr = "8BCF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyConditionalStatus"
+addr = "8BF9"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplySpecialtyEffects"
+addr = "8C2F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyStatus1"
+addr = "8CAC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyStatus2"
+addr = "8D2E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyStatus3"
+addr = "8DCB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyStatus4"
+addr = "8E05"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ToggleStatus1"
+addr = "8E25"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyFlirt"
+addr = "8E3A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyStatus3Exclusive"
+addr = "8E51"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "RemoveStatus1"
+addr = "8EB6"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "RemoveStatus2"
+addr = "8F11"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "RemoveStatus3"
+addr = "8F6E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "KillNonHeavy"
+addr = "8F82"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ReviveTarget"
+addr = "8FAA"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyStatus1Bypass"
+addr = "902B"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyStatus2Bypass"
+addr = "9039"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyStatus3Bypass"
+addr = "90CD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyStatus1AttackerBypass"
+addr = "90DB"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "RemoveMagicSword"
+addr = "90E9"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TargetChangeRow"
+addr = "9101"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "TargetFrontRow"
+addr = "9117"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AttackerBackRow"
+addr = "9122"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "HalveDefenses"
+addr = "912D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "HalveLevel"
+addr = "9136"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AddLevel"
+addr = "9143"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SubtractLevel"
+addr = "9153"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DoubleMaxHP"
+addr = "9163"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AddAttack"
+addr = "9197"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AddDefenses"
+addr = "91B4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ToggleStatus4"
+addr = "91D1"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AddSomethingUnused"
+addr = "91DC"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AddCreatureType"
+addr = "91E7"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AddStatus1Immunity"
+addr = "91F2"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "AddElementUp"
+addr = "91FD"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StealItem"
+addr = "9208"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StartStatus1Timer"
+addr = "92A5"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StopStatus1Timer"
+addr = "92B4"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StopStatus2Timer"
+addr = "92C3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StopStatus3Timer"
+addr = "92EE"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StopStatus4Timer"
+addr = "9319"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StartStatus2Timer"
+addr = "9328"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StartStatus3Timer"
+addr = "934D"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "Status4Timer"
+addr = "9319"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "LoseOneImage"
+addr = "938F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CatchMonster"
+addr = "93A5"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CalcBaseDamage"
+addr = "93F8"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ProcessCommands"
+addr = "9427"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "FindFirstTargetPlus1"
+addr = "94FF"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GetCharStructActionData"
+addr = "951A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckTargetRedirect"
+addr = "9561"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CheckValidTargetsExist2"
+addr = "9728"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetupReactionsAnims"
+addr = "9761"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CopyReactionInfo"
+addr = "9885"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GFXCmdDamageNumbers"
+addr = "98E3"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "FindOpenGFXQueueSlot"
+addr = "98FA"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SelectCurrentProcSequence"
+addr = "9923"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GFXCmdAttackNameFromTemp"
+addr = "992F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "GFXCmdMessage"
+addr = "994C"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SetupMsgBoxIndexes"
+addr = "9965"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "DeleteCommand"
+addr = "9980"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "CollectMPCost"
+addr = "9A08"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyPartyGear"
+addr = "9A5E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyGear"
+addr = "9A6F"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ApplyEquipmentStatus"
+addr = "9D01"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "StartTimerCurrentChar"
+addr = "9F2E"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "ReplaceHands"
+addr = "9F3A"
+bank = 0xc2
+emit = false
+
+[[func]]
+name = "SwapHands"
+addr = "9FE7"
+bank = 0xc2
+emit = false
+
+# From menu/menu-main
+
+# From cutscene/cutscene-main
+
+# From sound/sound-main
+
+[[func]]
+name = "InitSound_ext"
+addr = "0000"
+bank = 0xc4
+emit = false
+
+[[func]]
+name = "ExecSound_ext"
+addr = "0004"
+bank = 0xc4
+emit = false

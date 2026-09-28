@@ -17,7 +17,7 @@ There is a tool that updates `symbols.toml` with all functions (WIP). Assuming y
 python tools/rewrite_symbols.py
 ```
 
-Editing `symbols.toml` is not recommended.
+Not all funcs may have their associated addresses written in, though. When the terminator prompt so, you'll have to manually write them in. Otherwise, editing `symbols.toml` is not recommended.
 
 Add a bank by creating `bankNN.cfg` alongside this file; the generator picks
 up every `bank*.cfg` in the directory.
