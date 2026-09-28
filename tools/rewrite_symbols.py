@@ -83,7 +83,7 @@ with open(FILEPATH_SYM, "w") as file_sym:
                             addrless_func += 1
                 
                 elif line_bank.startswith(".proc "):
-                    pending_func = line_bank[6:].rstrip("\n")
+                    pending_func = line_bank[6:].split()[0]
                     addr_from_func = MAX_ADDR_FRM_FUNC
             
             file_bank.close()
