@@ -36,6 +36,8 @@ def write_func(file_sym, func_name, func_addr, func_bank):
 
 FILEPATH_SYM = pathlib.Path("recomp") / "symbols.toml"
 
+addrless_func = 0
+
 with open(FILEPATH_SYM, "w") as file_sym:
     write_intro(file_sym)
 
@@ -60,9 +62,31 @@ with open(FILEPATH_SYM, "w") as file_sym:
         filepath_bank = DIR_BANKS / (key + ASM_EXT)
 
         with open(filepath_bank) as file_bank:
+            pending_func = ""
+
+            MAX_ADDR_FRM_FUNC = 3
+            addr_from_func = 0
+
             for line_bank in file_bank:
-                if line_bank.startswith(".proc "):
-                    func_name = line_bank[6:].rstrip("\n")
-                    write_func(file_sym, func_name, "XXXX", bank)
+                if pending_func:
+                    if line_bank.startswith("_") or line_bank.startswith("@"):
+                        func_addr = line_bank[1:5]
+                        write_func(file_sym, pending_func, func_addr, bank)
+                        pending_func = ""
+                        addr_from_func = 0
+
+                    else:
+                        addr_from_func -= 1
+                        if addr_from_func <= 0:
+                            write_func(file_sym, pending_func, "XXXX", bank)
+                            pending_func = ""
+                            addrless_func += 1
+                
+                elif line_bank.startswith(".proc "):
+                    pending_func = line_bank[6:].rstrip("\n")
+                    addr_from_func = MAX_ADDR_FRM_FUNC
             
             file_bank.close()
+
+if addrless_func:
+    print(f'{addrless_func} funcs without addresses. Find them with "XXXX".')
