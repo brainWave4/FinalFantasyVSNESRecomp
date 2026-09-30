@@ -18,6 +18,8 @@ regen. Do not edit the generated blocks.
 This synchronization is provided by the pinned snesrecomp framework through
 `snesrecomp_cli.py generate`. After updating this repository, run
 `git submodule update --init --recursive` to use its framework pin.
+Python 3.11+ includes the TOML reader; on older Python, install the backport
+with `python -m pip install tomli`.
 
 - `emit = false` creates a friendly `symbol` label and a `force_lle` boundary,
   keeping that entry interpreted. It does not add a compiled `func` or a
