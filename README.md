@@ -91,8 +91,11 @@ The scaffold stops where the game-specific work starts. In rough order:
    NMI delivery that understand its own main loop. This is the bulk of the
    work.
 2. **Name things.** Add entries to `recomp/symbols.toml` as you identify
-   routines, then re-run `tools/regen.sh`. Set `emit = true` to promote one
-   into ahead-of-time codegen; leave it false to keep it interpreted.
+   routines, then re-run `tools/regen.sh`. Regen synchronizes the marked
+   blocks in each bank cfg, creating missing configs. Set `emit = true` to
+   request ahead-of-time analysis; leave it false to keep it interpreted.
+   The disassembly importer currently writes all entries as false. See
+   [`recomp/README.md`](recomp/README.md) before promoting or reimporting them.
 3. **Resolve dispatch misses.** After every run, deal with unresolved
    indirect targets before anything else — they are the reason a port
    diverges, and they are cheap to fix early.
