@@ -69,6 +69,21 @@ Either way the ROM is checked against the digests above before anything boots
 — a dump that could not have produced this build is refused at the door rather
 than mis-executing ten frames in.
 
+### Controls
+These settings can be changed in the launcher.
+
+| SNES button | Default key |
+|-------------|-------------|
+| D-Pad       | Arrow keys |
+| A           | X |
+| B           | Z |
+| X           | S |
+| Y           | A |
+| L           | C |
+| R           | V |
+| Start       | Enter |
+| Select      | Right Shift |
+
 ## Layout
 
 | Path | What lives there |
