@@ -121,6 +121,8 @@ The scaffold stops where the game-specific work starts. In rough order:
 
 Two players, one controller per port.
 
+Multiplayer affects who gets to contols which playable characters in-battle. They can be changed in the in-game config settings.
+
 ## License
 
 This project's own source is under the license in `LICENSE`. The framework
