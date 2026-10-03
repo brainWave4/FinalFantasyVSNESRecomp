@@ -85,7 +85,14 @@ with open(FILEPATH_SYM, "w") as file_sym:
                 
                 elif line_bank.startswith(".proc "):
                     pending_func = line_bank[6:].split()[0]
-                    addr_from_func = MAX_ADDR_FRM_FUNC
+
+                    if pending_func.startswith("_"):
+                        func_addr = pending_func[3:]
+                        pending_func = "Func" + pending_func
+                        write_func(file_sym, pending_func, func_addr, bank)
+                        pending_func = ""
+                    else:
+                        addr_from_func = MAX_ADDR_FRM_FUNC
             
             file_bank.close()
 

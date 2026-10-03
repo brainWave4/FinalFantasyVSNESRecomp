@@ -65,7 +65,7 @@ bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c00853"
+name = "Func_c00853"
 addr = "0853"
 bank = 0xc0
 emit = false
@@ -119,19 +119,19 @@ bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c009c6"
+name = "Func_c009c6"
 addr = "09c6"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c009f7"
+name = "Func_c009f7"
 addr = "09f7"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c00a11"
+name = "Func_c00a11"
 addr = "0a11"
 bank = 0xc0
 emit = false
@@ -161,13 +161,13 @@ bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c00c9f"
+name = "Func_c00c9f"
 addr = "0c9f"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c00d3d"
+name = "Func_c00d3d"
 addr = "0d3d"
 bank = 0xc0
 emit = false
@@ -197,37 +197,37 @@ bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c0103a"
+name = "Func_c0103a"
 addr = "103a"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c0104a"
+name = "Func_c0104a"
 addr = "104a"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c01055"
+name = "Func_c01055"
 addr = "1055"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c010c8"
+name = "Func_c010c8"
 addr = "10c8"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c0112d"
+name = "Func_c0112d"
 addr = "112d"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c0119a"
+name = "Func_c0119a"
 addr = "119a"
 bank = 0xc0
 emit = false
@@ -305,43 +305,43 @@ bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c016b7"
+name = "Func_c016b7"
 addr = "16b7"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c016da"
+name = "Func_c016da"
 addr = "16da"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c01733"
+name = "Func_c01733"
 addr = "1733"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c017e8"
+name = "Func_c017e8"
 addr = "17e8"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c019f1"
+name = "Func_c019f1"
 addr = "19f1"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c01a1d"
+name = "Func_c01a1d"
 addr = "1a1d"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c01ae4"
+name = "Func_c01ae4"
 addr = "1ae4"
 bank = 0xc0
 emit = false
@@ -365,19 +365,19 @@ bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c01ec5"
+name = "Func_c01ec5"
 addr = "1ec5"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c01f57"
+name = "Func_c01f57"
 addr = "1f57"
 bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c01fb4"
+name = "Func_c01fb4"
 addr = "1fb4"
 bank = 0xc0
 emit = false
@@ -647,7 +647,7 @@ bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c06b99"
+name = "Func_c06b99"
 addr = "6b99"
 bank = 0xc0
 emit = false
@@ -671,7 +671,7 @@ bank = 0xc0
 emit = false
 
 [[func]]
-name = "_c08d3b"
+name = "Func_c08d3b"
 addr = "8d3e"
 bank = 0xc0
 emit = false
@@ -751,19 +751,19 @@ bank = 0xc1
 emit = false
 
 [[func]]
-name = "_c10003"
+name = "Func_c10003"
 addr = "0003"
 bank = 0xc1
 emit = false
 
 [[func]]
-name = "_c10006"
+name = "Func_c10006"
 addr = "0006"
 bank = 0xc1
 emit = false
 
 [[func]]
-name = "_c10009"
+name = "Func_c10009"
 addr = "0009"
 bank = 0xc1
 emit = false
