@@ -13,10 +13,7 @@ _Description from [Wikipedia](https://en.wikipedia.org/wiki/Final_Fantasy_V), CC
 
 ## Status
 
-Scaffolded on 2026-09-19 — **not yet a working port.** The layout, build,
-regeneration pipeline, CI, and packaging are wired up; the game does not run
-until the host work in `src/game_rtl.c` is done. See
-[Porting from here](#porting-from-here).
+Can be launched and played. You have to build it for Windows and Mac, though; only Linux is released.
 
 ## ROM identity
 
