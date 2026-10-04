@@ -36,7 +36,7 @@ revision fails immediately instead of producing subtly wrong output.
 
 ```sh
 git submodule update --init --recursive
-bash tools/regen.sh --rom /path/to/ffv-jp.sfc
+bash tools/regen.sh
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
 ```
