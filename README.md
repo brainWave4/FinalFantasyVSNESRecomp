@@ -13,7 +13,7 @@ _Description from [Wikipedia](https://en.wikipedia.org/wiki/Final_Fantasy_V), CC
 
 ## Status
 
-Can be launched and played. You have to build it for Windows and Mac, though; only Linux is released.
+Can be launched and played. You can look into the release to find the game compatible with your PC. If not, you can build from this project.
 
 ## ROM identity
 
