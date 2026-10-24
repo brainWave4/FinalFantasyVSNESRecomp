@@ -46,11 +46,10 @@ drive is the better habit, and `SNESRECOMP_ROM` sets the path once for a
 shell. `tools/regen.sh` also finds `ffv-jp.sfc` at the repo root if you
 prefer that; `.gitignore` blocks it from ever being committed either way.
 
-`tools/regen.sh` verifies the ROM, generates `src/gen/*.c`, and re-syncs
-`recomp/funcs.h`. Re-run it whenever you change anything under `recomp/`.
-
 The platform built out depends on the OS you use for building. The project
 can build for Windows, Mac or Linux.
+
+For more details, go [here](docs/BUILDING.md).
 
 ## Run
 
