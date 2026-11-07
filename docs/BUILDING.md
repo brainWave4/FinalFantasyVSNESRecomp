@@ -34,6 +34,6 @@ Also, `path/to/sdl3-win64/` is the filepath where Windows SDL3 is installed.
 
 Finally:
 ```sh
-cmake --build build -j
+cmake --build build-win -j
 ```
 to build out an `.exe` file.
