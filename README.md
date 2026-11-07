@@ -71,17 +71,16 @@ than mis-executing ten frames in.
 ### Controls
 These settings can be changed in the launcher.
 
-| SNES button | Default key |
-|-------------|-------------|
-| D-Pad       | Arrow keys |
-| A           | X |
-| B           | Z |
-| X           | S |
-| Y           | A |
-| L           | C |
-| R           | V |
-| Start       | Enter |
-| Select      | Right Shift |
+| Action(s) | SNES button | Default key |
+|----|----|----|
+| Move | D-Pad | Arrow keys |
+| Accept, Talk | A | X |
+| Cancel, Sprint | B | Z |
+| Main Menu | X | S |
+| Map | Y | A |
+| Run from Battle | L + R | C + V |
+| Pause Mid-battle | Start | Enter |
+| | Select | Right Shift |
 
 ## Layout
 
