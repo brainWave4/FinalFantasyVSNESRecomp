@@ -17,7 +17,7 @@ Can be launched and played. You can look into the release to find the game compa
 
 ## ROM identity
 
-| | |
+| Key | Value |
 |---|---|
 | File | `ffv-jp.sfc` |
 | Publisher | Square |
